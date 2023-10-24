@@ -348,4 +348,6 @@ ul.row-list a {
     height: 178px; /* Adjust the height */
 }
 
-.
+ul.row-list a:hover {
+    background-color: #8b0000; /* Background color on hover */
+}
