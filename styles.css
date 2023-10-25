@@ -226,6 +226,7 @@ body.smash-bros {
 /* Style the text in category sections */
 .category-title {
     color: #fff;
+    text-align: left;
 }
 
 
