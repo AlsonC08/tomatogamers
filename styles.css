@@ -334,7 +334,15 @@ body.smash-bros {
     border-radius: 5px;
 }
 
-ul.row-list a {
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 games per row */
+    gap: 20px; /* Adjust the gap as needed */
+    max-width: 980px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.game-grid a {
     display: inline-block;
     padding: 10px;
     background-color: #FF0000;
@@ -343,11 +351,10 @@ ul.row-list a {
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin: 10px;
-    width: 235px; /* Adjust the width */
-    height: 178px; /* Adjust the height */
+    max-width: 235px; /* Limit the width of each game */
+    height: 178px;
 }
 
-ul.row-list a:hover {
+.game-grid a:hover {
     background-color: #8b0000; /* Background color on hover */
 }
