@@ -40,15 +40,7 @@ window.addEventListener('load', function() {
     }, 8000); // 8 seconds in milliseconds
 });
 
-window.addEventListener('load', function() {
-    // Hide the loading screen after 10 seconds
-    setTimeout(function() {
-        var loadingScreen = document.querySelector('.loading-screen-index');
-        if (loadingScreen) {
-            loadingScreen.style.display = 'none';
-        }
-    }, 4000); // 4 seconds in milliseconds
-});
+
 
 
 function displayAd() {
